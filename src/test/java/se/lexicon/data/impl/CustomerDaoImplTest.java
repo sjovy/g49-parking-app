@@ -7,6 +7,7 @@ public class CustomerDaoImplTest {
 
     private CustomerDaoImpl testObject;
 
+    // did a few changes
     @BeforeEach
     public void setUp() {
         testObject = new CustomerDaoImpl();
