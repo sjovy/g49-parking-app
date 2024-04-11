@@ -13,7 +13,7 @@ public class CustomerDaoImpl implements CustomerDao {
     private List<Customer> storage = new ArrayList<>();
 
     @Override
-    public Customer create(Customer customer) {
+    public Customer store(Customer customer) {
         //todo: Add necessary validations
         int id = CustomerSequencer.nextId();
         customer.setId(id);

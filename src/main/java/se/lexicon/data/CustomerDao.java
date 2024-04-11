@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface CustomerDao {
 
-    Customer create(Customer customer);
+    Customer store(Customer customer);
 
     Optional<Customer> find(int id);
 
